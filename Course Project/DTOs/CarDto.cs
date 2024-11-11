@@ -1,6 +1,6 @@
 ﻿namespace Course_Project.DTOs
 {
-    public class CarDto
-    {
-    }
+    public record CarDto(int Id, string Name, 
+        DateOnly Year,string Mileage, decimal Cost );
+    
 }
